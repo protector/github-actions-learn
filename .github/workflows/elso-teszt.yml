@@ -5,7 +5,9 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Print greeting
-        run: echo "Haligali!"
+        run: |
+          echo "Haligali!"
+          echo "Csákómákó"
       - name: Print goodbye
         run: echo "Done - csá!"
       
